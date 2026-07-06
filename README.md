@@ -40,6 +40,18 @@ flowchart LR
 | 🧪 **DS-300 Emulator** | Emula la centralita DS-300 por puerto serie para probar el sistema sin el hardware físico. | [DS300-Emulator](https://github.com/vgonzalezgomez85/DS300-Emulator) |
 | 🌐 **PitWall Web** | El sitio web y los manuales de [pitwall.es](https://pitwall.es). | [PitWallWeb](https://github.com/vgonzalezgomez85/PitWallWeb) |
 
+### Comunidad y contribución
+
+PitWall nace como una **base abierta para que la comunidad aporte su granito de arena**. La idea es simple: sobre lo ya construido, cualquiera puede proponer mejoras, corregir errores o añadir funciones nuevas.
+
+A cambio pedimos una sola cosa: **quien añada una funcionalidad, que la documente**. Queremos que el proyecto esté siempre bien mantenido y bien documentado, para que no haya confusiones ni en el uso ni en el desarrollo. En la práctica:
+
+- **Documenta lo que aportas** — actualiza el README (o los manuales) del repo correspondiente en el mismo cambio que añade la función.
+- **Cambios claros** — abre un *issue* para debatir y un *pull request* enfocado, con una descripción de qué hace y por qué.
+- **Deja el proyecto mejor que lo encontraste** — sin funciones a medias ni sin explicar.
+
+Toda ayuda es bienvenida: código, documentación, traducciones, pruebas o reportar errores.
+
 ### Licencia
 
 Todo el software de PitWall es **software libre** bajo la **GNU Affero General Public License v3 (AGPLv3)** o, a tu elección, cualquier versión posterior. Consulta el archivo [`LICENSE`](./LICENSE) de cada repositorio.
@@ -63,6 +75,18 @@ PitWall isn't a single app but several pieces working together around a slot rac
 | 🗂️ **PitWall Control** | The season under control: standings by cups and categories, driver and team profiles, calendar, treasury and credits. | [PitWall-Control](https://github.com/vgonzalezgomez85/PitWall-Control) |
 | 🧪 **DS-300 Emulator** | Emulates the DS-300 timing box over a serial port to test the system without the physical hardware. | [DS300-Emulator](https://github.com/vgonzalezgomez85/DS300-Emulator) |
 | 🌐 **PitWall Web** | The website and manuals at [pitwall.es](https://pitwall.es). | [PitWallWeb](https://github.com/vgonzalezgomez85/PitWallWeb) |
+
+### Community & contributing
+
+PitWall is built as an **open base for the community to chip in**. The idea is simple: on top of what already exists, anyone can propose improvements, fix bugs or add new features.
+
+In return we ask for one thing: **whoever adds a feature should document it**. We want the project to stay well maintained and well documented, so there's no confusion in either usage or development. In practice:
+
+- **Document what you contribute** — update the README (or manuals) of the relevant repo in the same change that adds the feature.
+- **Clear changes** — open an *issue* to discuss and a focused *pull request* describing what it does and why.
+- **Leave the project better than you found it** — no half-finished or unexplained features.
+
+Every kind of help is welcome: code, documentation, translations, testing or reporting bugs.
 
 ### License
 
@@ -88,6 +112,18 @@ PitWall n'est pas une seule application mais plusieurs pièces qui travaillent e
 | 🧪 **DS-300 Emulator** | Émule la centrale DS-300 via un port série pour tester le système sans le matériel physique. | [DS300-Emulator](https://github.com/vgonzalezgomez85/DS300-Emulator) |
 | 🌐 **PitWall Web** | Le site web et les manuels sur [pitwall.es](https://pitwall.es). | [PitWallWeb](https://github.com/vgonzalezgomez85/PitWallWeb) |
 
+### Communauté et contribution
+
+PitWall est conçu comme une **base ouverte pour que la communauté apporte sa pierre à l'édifice**. L'idée est simple : à partir de l'existant, chacun peut proposer des améliorations, corriger des bugs ou ajouter de nouvelles fonctions.
+
+En échange, nous demandons une seule chose : **celui qui ajoute une fonctionnalité doit la documenter**. Nous voulons que le projet reste bien maintenu et bien documenté, afin d'éviter toute confusion, tant à l'usage qu'au développement. Concrètement :
+
+- **Documentez ce que vous apportez** — mettez à jour le README (ou les manuels) du dépôt concerné dans le même changement qui ajoute la fonction.
+- **Des changements clairs** — ouvrez une *issue* pour en discuter et une *pull request* ciblée décrivant ce qu'elle fait et pourquoi.
+- **Laissez le projet meilleur que vous ne l'avez trouvé** — pas de fonctions à moitié faites ou non expliquées.
+
+Toute aide est la bienvenue : code, documentation, traductions, tests ou signalement de bugs.
+
 ### Licence
 
 Tout le logiciel PitWall est un **logiciel libre** sous la **GNU Affero General Public License v3 (AGPLv3)** ou, à votre choix, toute version ultérieure. Voir le fichier [`LICENSE`](./LICENSE) de chaque dépôt.
@@ -111,6 +147,18 @@ PitWall non è una singola app ma più componenti che lavorano insieme attorno a
 | 🗂️ **PitWall Control** | La stagione sotto controllo: classifiche per coppe e categorie, schede di piloti e squadre, calendario, tesoreria e crediti. | [PitWall-Control](https://github.com/vgonzalezgomez85/PitWall-Control) |
 | 🧪 **DS-300 Emulator** | Emula la centralina DS-300 tramite porta seriale per testare il sistema senza l'hardware fisico. | [DS300-Emulator](https://github.com/vgonzalezgomez85/DS300-Emulator) |
 | 🌐 **PitWall Web** | Il sito web e i manuali su [pitwall.es](https://pitwall.es). | [PitWallWeb](https://github.com/vgonzalezgomez85/PitWallWeb) |
+
+### Comunità e contributi
+
+PitWall nasce come una **base aperta perché la comunità dia il proprio contributo**. L'idea è semplice: partendo da ciò che già esiste, chiunque può proporre miglioramenti, correggere bug o aggiungere nuove funzioni.
+
+In cambio chiediamo una sola cosa: **chi aggiunge una funzionalità deve documentarla**. Vogliamo che il progetto resti sempre ben mantenuto e ben documentato, per evitare confusione sia nell'uso sia nello sviluppo. In pratica:
+
+- **Documenta ciò che aggiungi** — aggiorna il README (o i manuali) del repository interessato nello stesso cambiamento che aggiunge la funzione.
+- **Modifiche chiare** — apri una *issue* per discuterne e una *pull request* mirata che descriva cosa fa e perché.
+- **Lascia il progetto meglio di come l'hai trovato** — niente funzioni a metà o non spiegate.
+
+Ogni tipo di aiuto è benvenuto: codice, documentazione, traduzioni, test o segnalazione di bug.
 
 ### Licenza
 
