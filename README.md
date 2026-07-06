@@ -16,12 +16,16 @@
 
 PitWall no es una app, son varias piezas que trabajan juntas alrededor de una carrera de slot. **Manager** es el motor: habla con el cronómetro físico, cuenta las vueltas y hace de servidor web para el resto. **Lap** y **Control** se conectan a él para vivir la carrera en directo y gestionar la temporada. El **emulador DS-300** nos permite probar todo sin el hardware real.
 
+Un Manager puede funcionar como **maestro** o como **esclavo**. El maestro habla con el DS-300 y manda la **señal DS** (GO, pausa, reanudar, fin) al esclavo; el esclavo obedece esa señal pero recibe **sus cruces de vuelta desde un BART**.
+
 ```mermaid
 flowchart LR
-  HW["🏁 Cronómetro<br/>DS-300 · BART"] -->|cruces| M
+  DS["🏁 DS-300<br/>(serie)"] -->|cruces| M
   EMU["🧪 DS-300 Emulator<br/>pruebas, sin hardware"] -.->|simula el DS-300| M
-  M["⚙️ PitWall Manager<br/>motor + servidor web"] --> L["📱 PitWall Lap"]
-  M --> C["🗂️ PitWall Control"]
+  M["⚙️ PitWall Manager · maestro<br/>motor + servidor web"] -->|"señal DS<br/>GO · pausa · reanudar · fin"| S["⚙️ PitWall Manager · esclavo"]
+  BART["📡 BART<br/>(BLE)"] -->|cruces| S
+  M --> L["📱 PitWall Lap"]
+  M <-->|gestión| C["🗂️ PitWall Control"]
   M --> O["💻 Otros dispositivos"]
 ```
 
